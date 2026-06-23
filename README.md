@@ -1,87 +1,56 @@
-# BULSU COE Web Engineering Project
+# Hi there, I'm John Clarence! 👋
 
-**Live Site:** https://ultra-rapi-dfire.vercel.app/
+### Computer Engineering Graduate (Cum Laude) | Software Developer | AI Automation & Integration Engineer
 
-A web engineering project for the Bulacan State University College of Engineering, featuring an integrated CI/CD pipeline.
+I am a passionate and results-driven Computer Engineering graduate specializing in bridging the gap between full-stack software development and high-efficiency business automation. I design and build responsive web applications, interactive mobile platforms, and intelligent, serverless data pipelines that eliminate manual business friction.
 
-## Features
+With a strong foundation in backend development and enterprise logic, my core focus lies in **Java**, **full-stack engineering**, and advanced **workflow orchestration (n8n)**.
 
-- Dynamic landing page with customizable sections.
-- Per-department pages dynamically loaded from JSON data.
-- Built-in admin editors (`/admin` and `/dept/:deptCode/admin`) with live previews and JSON export tools.
+---
 
-## Tech Stack
+### 🛠️ Core Tech Stack
 
-- **Framework:** React
-- **Build Tool:** Vite
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Routing:** React Router
-- **Deployment:** Vercel
-- **CI/CD Pipeline:** GitHub Actions & Vercel
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Programming Languages** | Java, JavaScript (ES6+), Python, PHP |
+| **Web & Backend** | Node.js, Express.js, HTML5, CSS3, Serverless Architecture |
+| **Mobile Development** | React Native, Android Studio (Java/Kotlin) |
+| **Automation & Orchestration** | n8n, Event-Driven Orchestration, RESTful APIs, Webhooks |
+| **Databases & Cloud** | MySQL, Firebase (Firestore / Realtime Database) |
+| **Version Control & Tools** | Git, GitHub, CI/CD Pipelines |
 
-## Architecture & Structure
+---
 
-- `src/`
-  - `components/`: Shared React components.
-  - `data/`: TypeScript-based content files for the landing page and department data structures.
-  - `lib/`: Helper functions for admin pages, data loading, etc.
-  - `Pages/`: Main page components for the application routes.
-    - `admin/`: Admin editor pages for each department.
-- `public/`
-  - `data/departments/`: The JSON files that hold the live content for each department page.
+### 🚀 Highlighted Projects
 
-## Application Routes
+*   **Autonomous AI Expense Bookkeeper**
+    *   Built a fully automated serverless pipeline that extracts structured financial data from email invoice attachments (PDFs/Images) and logs them into a centralized ledger in real-time.
+    *   Combines event-driven orchestration with an LLM-powered data extraction engine to eliminate manual entry friction.
+*   **Autonomous Multi-Channel AI Customer Sentiment & Escalation Engine**
+    *   Designed a live backend automation architecture that streams real-time customer feedback data and processes it via an LLM to evaluate emotional sentiment.
+    *   Applies structural routing logic to dynamically isolate and triage critical complaints into dedicated communication pipelines.
+*   **Carnalyze (Thesis Project)**
+    *   Developed a Python-powered hardware–software system that utilizes physical sensors and predictive modeling to assess pork meat freshness through real-time data management.
+*   **AirWeGo**
+    *   Developed a flight booking mobile application featuring ticket reservation capabilities and an integrated AI support chatbot to streamline the digital user experience.
 
-- `/` Landing page
-- `/admin` Landing admin editor
-- `/departments` Department selector
-- `/dept/:deptCode` Department page
-- `/dept/:deptCode/admin` Department admin editor
+---
 
-## Available Scripts
+### 📜 Certifications & Training
 
-In the project directory, you can run:
+I continuously sharpen my skills through industry-recognized certifications, particularly focusing on AI, Cloud, and Networking infrastructures:
+*   **Huawei Certified ICT Associate (HCIA) - AI V4.0** (Multiple Programs)
+*   **Huawei Certified Cloud Associate (HCCDA) - Tech Essentials**
+*   **Huawei Basics of Network Layer Protocols Micro Certification**
+*   **Huawei Overview of AI & AI Basic (CRA Training Program)**
 
-### `npm run dev`
+---
 
-Runs the app in development mode. Open http://localhost:5173 to view it in the browser. The page will reload if you make edits.
+### 🤝 Let's Connect!
 
-### `npm run build`
+I am actively seeking entry-level opportunities in **Software Development**, **Junior Java Roles**, and **AI/Backend Automation engineering**. If you're looking for a developer who can write robust code and build systems that run your business on autopilot, let's get in touch!
 
-Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+*   **LinkedIn:** [linkedin.com/in/j078](http://www.linkedin.com/in/j078)
+*   **Location:** Bulacan, Philippines 🇵🇭
 
-### `npm run lint`
-
-Lints the TypeScript/JavaScript files in the project to catch errors and enforce code style.
-
-### `npm run test`
-
-Runs a full check including linting, CSS linting, and a production build to ensure everything is correct before a commit.
-
-### `npm run preview`
-
-Serves the production build from the `dist` folder locally to preview the final app.
-
-## Deployment
-
-This project is configured for continuous deployment on Vercel.
-
-- **Production URL:** https://ultra-rapi-dfire.vercel.app/
-
-Any push to the `main` branch that passes the CI/CD checks will be automatically deployed.
-
-## Content Management
-
-There are two primary ways to manage content:
-
-1.  **Admin UI Method:**
-    -   **Landing Page:** Navigate to `/admin` to edit the main landing page content.
-    -   **Department Pages:** Navigate to `/dept/:deptCode/admin` (e.g., `/dept/ME/admin`) to edit a specific department's content.
-    -   These pages provide a live preview and allow you to download an updated `.json` file.
-
-2.  **Direct Code Method:**
-    -   **Landing Page:** Modify the `landingPageData` object in `src/data/landing.ts`.
-    -   **Department Data:**
-        -   For default structure and non-editable fields, modify the corresponding file in `src/data/department/`.
-        -   For live content, update the JSON file in `public/data/departments/`.
+⚡ *Fun fact: I love designing hardware-software integrations and leveraging LLMs to make daily digital tasks completely hands-free.*
